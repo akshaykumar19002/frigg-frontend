@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "fridge_id": 1,
+    "grocery_item_name": "apples",
+    "quantity": 2,
+    "createdAt": "2022-10-10T14:09:45.000Z",
+    "updatedAt": "2022-10-10T14:09:48.000Z"
+  },
+  {
+    "id": 0,
+    "fridge_id": 1,
+    "grocery_item_name": "bananas",
+    "quantity": 2,
+    "createdAt": "2022-10-10T14:09:45.000Z",
+    "updatedAt": "2022-10-10T14:09:48.000Z"
+  },
+  {
+    "id": 0,
+    "fridge_id": 1,
+    "grocery_item_name": "curd",
+    "quantity": 2,
+    "createdAt": "2022-10-10T14:09:45.000Z",
+    "updatedAt": "2022-10-10T14:09:48.000Z"
+  },
+  {
+    "id": 0,
+    "fridge_id": 1,
+    "grocery_item_name": "oranges",
+    "quantity": 2,
+    "createdAt": "2022-10-10T14:09:45.000Z",
+    "updatedAt": "2022-10-10T14:09:48.000Z"
+  },
+  {
+    "id": 0,
+    "fridge_id": 1,
+    "grocery_item_name": "cheese",
+    "quantity": 2,
+    "createdAt": "2022-10-10T14:09:45.000Z",
+    "updatedAt": "2022-10-10T14:09:48.000Z"
+  }
+]

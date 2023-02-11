@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_food_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/iv_item_image"-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:visibility="gone"/>-->
+    <CheckBox
+        android:id="@+id/cbItemCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/foodItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apples"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/foodAmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount: 3Kgs"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/llExpiryDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvExpiryDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expiry Date: 10/mm/yy"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvPurchaseDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy Date: 10/mm/yy"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvAlreadyInFridge"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="Already in\na fridge"/>
+
+    <LinearLayout
+        android:id="@+id/llAddSubtract"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/subtract_item"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:cropToPadding="true"
+            android:gravity="center_vertical"
+            android:padding="2dp"
+            android:src="@drawable/subtract_icon" />
+
+        <TextView
+            android:id="@+id/food_count_track"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:text="3"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/add_item"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="2dp"
+            android:src="@drawable/add_icon_round" />
+    </LinearLayout>
+
+
+</LinearLayout>
